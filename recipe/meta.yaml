@@ -41,7 +41,7 @@ about:
     will calculate optimal threshold choice according to a choice of optimization criteria. It also includes functions to plot the threshold independent ROC curves along with the associated AUC (area under the curve).
   license_family: other
   license_file:
-    - COPYRIGHTS
+    - inst/COPYRIGHTS
 
 extra:
   recipe-maintainers:

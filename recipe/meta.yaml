@@ -1,4 +1,4 @@
-{% set version = "1.1.10" %}
+{% set version = "1.1.11" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/PresenceAbsence_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/PresenceAbsence/PresenceAbsence_{{ version }}.tar.gz
-  sha256: 59266ffdf702ab1ecca7cbcf0538afe38d1a15abea66056734b62c0c15609c7c
+  sha256: c63a6453783865b7c69c580a09a769e99390dd8b2e0f63e48fbfc86da3bee4b7
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

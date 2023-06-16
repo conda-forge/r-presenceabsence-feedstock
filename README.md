@@ -1,11 +1,11 @@
-About r-presenceabsence
-=======================
+About r-presenceabsence-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-presenceabsence-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=PresenceAbsence
 
 Package license: LicenseRef-Unlimited
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-presenceabsence-feedstock/blob/main/LICENSE.txt)
 
 Summary: This package provides a set of functions useful when evaluating the results of presence-absence models. Package includes functions for calculating threshold dependent measures such as confusion matrices, pcc, sensitivity, specificity, and Kappa, and produces plots of each measure as the threshold is varied. It will calculate optimal threshold choice according to a choice of optimization criteria. It also includes functions to plot the threshold independent ROC curves along with the associated AUC (area under the curve).
 
